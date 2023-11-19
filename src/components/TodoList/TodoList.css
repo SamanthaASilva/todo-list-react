@@ -1,0 +1,42 @@
+.todolist{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(rgb(0,0,0,0.2));
+    margin-top: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.todo-register {
+    margin: 10px 0px;
+}
+
+.todo-register label {
+    display: block;
+    font-size: 14px;
+    color: black;
+}
+
+.todo-register input {
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgba(rgba(0, 0, 0, 0.4));
+    padding: 5px 10px;
+}
+
+.todo-register button {
+    margin: 0 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(82, 230, 52);
+    font-size: 15px;
+}
+
+.todo-register button:hover {
+    cursor: pointer;
+    font-size: 16px;
+}

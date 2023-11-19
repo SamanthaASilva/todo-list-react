@@ -1,0 +1,7 @@
+.todo-item{
+    list-style-position: inside;
+    padding: 10px 6rem;
+    margin: 5px;
+    border-radius: 10px;
+    background: #88bbfa;
+}
